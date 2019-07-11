@@ -1,5 +1,6 @@
 import React from 'react';
 import walkSprite from './player_walk.png';
+import handleMovement from './movement';
 import { connect } from 'react-redux';
 
 function Player(props) {
@@ -24,4 +25,4 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect(mapStateToProps) (Player);
+export default connect(mapStateToProps) (handleMovement(Player));
