@@ -1,9 +1,10 @@
 .tile {
   display: inline-flex;
+  background-color: #42b842;
 }
 
 .grass {
-  background-color: palegreen;
+  background-color: #42b842;
 }
 
 .rock {
@@ -12,4 +13,12 @@
 
 .tree {
   background-image: url('/tiles/tree-1.png');
+}
+
+.tree2 {
+  background-image: url('/tiles/tree-2.png')
+}
+
+.chest {
+  background-image: url('/tiles/chest.png')
 }
